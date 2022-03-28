@@ -736,6 +736,9 @@ body.page #main-content {
   z-index: 1;
 }
 
+.tp-simpleresponsive img {
+  width: 100%;
+}
 /* Sidebar Right */
 .sidebar-right #site-content {
   float: left;
@@ -1304,6 +1307,9 @@ body.page #main-content {
 
 /* Style 2 */
 .header-style-2 #site-header #main-nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
   position: absolute;
   left: 300px;
   top: 50%;
